@@ -12,4 +12,4 @@ To reproduce this:
 
 I've run this test for 30 minutes, and the SDK kept trying to discover the entire time, keeping the energy impact high.
 
-It would be better from battery saving point of view if the SDK timed out after a short while (maybe 1 minute or so) of unsuccessfully trying to discover AudioFetch hardware. Then try again only when `resetDiscovery` is called or the device entered a new network.
+It would be better from battery saving point of view if the SDK timed out after a short while (maybe 30 seconds or so) of unsuccessfully trying to discover AudioFetch hardware. Then try again only when `resetDiscovery` is called or the device entered a new network.
